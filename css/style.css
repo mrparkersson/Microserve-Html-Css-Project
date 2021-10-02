@@ -1,8 +1,17 @@
 #image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+#img-div {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  #image {
+    width: 200px;
+    height: 200px;
+    width: 70%;
   }
-#img-div{
-    text-align: center;
 }
