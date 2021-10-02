@@ -1,0 +1,8 @@
+#image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+#img-div{
+    text-align: center;
+}
